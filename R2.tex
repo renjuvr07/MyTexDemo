@@ -1,0 +1,92 @@
+\documentclass[12pt]{book}
+\usepackage{amsmath}
+\usepackage{tikz}
+\usepackage[ruled,vlined]{algorithm2e}
+
+
+\begin{document}
+
+\title{Mathematical Typesetting}
+\author{Renju V R}
+\maketitle
+
+\chapter{Equations}
+
+\section{Inline Mode}
+\underline{\textbf{First}} Equation  : 
+\begin{equation}
+ x+y=10   
+\end{equation}
+
+\begin{equation} 2^{32} 
+\end{equation}
+
+\section{Displayed Mode}
+
+\underline{\textbf{Second}} Equation is
+\begin{displaymath}
+ E= mc^2 
+\end{displaymath}
+
+\section{Aligning Equations}
+
+\begin{align}
+x+y+z &= 10 \\
+2x+5z &=15	\nonumber \\
+5y+7z &= 20	
+\end{align}
+
+\section{fractions}
+
+$  f(x)= \displaystyle \frac{x+2}{x+4}	$
+
+
+$ a_1x_1+a_2x_2 =20 $
+
+
+$$ x=\frac{-b \pm \sqrt{b^2-4ac}}{2a} $$
+
+
+\{
+\\
+\$ \\
+\&
+\section{Matrices}
+$$
+\begin{vmatrix}
+1 & 2 & 3 \\
+a & b & c 
+\end{vmatrix}
+$$
+\section{drawing}
+
+\begin{tikzpicture}
+\draw (0,0)--(0,5);
+\draw (0,5)--(5,0);
+\draw (0,0)--(5,0);
+\end{tikzpicture}
+\\\\
+\begin{tikzpicture}
+\draw (0,0)rectangle(5,5);
+
+
+\end{tikzpicture}
+
+\section{algorithms}
+
+\begin{algorithm}
+\caption{Binary Search}
+
+
+\KwResult{Res1}
+
+\end{algorithm}
+
+
+
+
+
+
+
+
+\end{document}
